@@ -24,11 +24,11 @@ Workflow otomasi:
 4. Rename otomatis — file yang sudah diproses di-skip (logged)
 
 ## Impact
-|       Metrik        | Manual    | BPPU Renamer|
-|------------------- -|-------------------------|
-| Total file diproses | 826 files | 826 files   |
-| Waktu pengerjaan    | ~9 jam    |  ~2 menit   |
-| Risiko human error  | Tinggi    |    ~1%      |
+| Metrik | Manual | BPPU Renamer |
+|--------|--------|--------------|
+| Total file diproses | 826 files | 826 files |
+| Waktu pengerjaan | ~9 jam | ~2 menit |
+| Risiko human error | Tinggi | ~1% |
 
 ## Tech Stack
 - Python
@@ -47,3 +47,4 @@ Folder Bulan
     Generate new filename
           ↓
     Rename + Log (skip if already renamed)
+```
